@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem 0;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0rem 9rem;
+}
+
+.products {
+  padding: 2rem 0;
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #333;
+}
+
+.card-info {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.loading-products {
+  display: block;
+  width: fit-content;
+  padding: 1rem 2rem;
+  margin: 2rem auto 0;
+
+}
